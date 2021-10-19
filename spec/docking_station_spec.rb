@@ -12,3 +12,5 @@ describe DockingStation do
     expect(bike).to respond_to(:working?)
   end
 end
+
+#Up to end of challenge 10, end of day 19/10/2021
