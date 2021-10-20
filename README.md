@@ -2,7 +2,8 @@
 
 Task from Week 1 on the Makers bootcamp. This task was completed during daily pair-programming sessions with a new partner daily.
 
-Day 1 partner --> [Courtney Stow](https://github.com/Court534) - Challenges 1 to 10 completed
+Day 1 partner --> [Courtney Stow](https://github.com/Court534) - Challenges 1 to 10 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns.
+Day 2 partner --> [Simon Jacobs](https://github.com/smoni19) - Challenges 7 to 12 completed. We picked up where Simon left off on Day 1, therefore we worked on his repository (which is here)[https://github.com/smoni19/Boris_Bikes/commits/main] using the driver/navigator technique to push/pull commits as required. At the end of the day I updated my existing repo with the code we finished the day with.
 
 ## About the task
 The task is to build a program that will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on).
@@ -70,4 +71,15 @@ To help structure the work, we were given 22 challenges. They all built upon one
 - Use RSpec 'predicate' syntax  :white_check_mark:
 - Pass a feature test  :white_check_mark:
 
+#### Challenge 11 - Using instance variables
+**Learning Objectives covered**
+- Write RSpec tests that require arguments :white_check_mark:
+- Pass an instance as an argument :white_check_mark:
+- Set an attribute on an instantiated Object using an `@` instance variable :white_check_mark:
+- Use `attr_reader` to read an attribute on an instantiated Object :white_check_mark:
 
+#### Challenge 12 - Raising exceptions
+**Learning Objectives covered**
+- Write RSpec tests that `expect` errors
+- Use `fail` or `raise` to raise an error
+- Use a 'guard condition'
