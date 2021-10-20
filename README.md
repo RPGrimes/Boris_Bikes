@@ -1,6 +1,6 @@
 # Boris_Bikes :bike:
 
-Task from Week 1 on the Makers bootcamp. This task was completed during daily pair-programming sessions with a different partner daily.
+Task from Week 1 on the Makers bootcamp. This task was completed during daily pair-programming sessions with a new partner daily.
 
 Day 1 partner --> [Courtney Stow](https://github.com/Court534) - Challenges 1 to 10 completed
 
