@@ -1,6 +1,7 @@
-# Boris_Bikes
+# Boris_Bikes :bike:
 
-Task from Week 1 on the Makers bootcamp.
+Task from Week 1 on the Makers bootcamp. This task was completed during daily pair-programming sessions with a different partner daily.
+Day 1 parter --> [Courtney Stow](https://github.com/Court534) - Challenges 1 to 10 completed :white_check_mark:
 
 ## About the task
 The task is to want build a program that will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on) required to make their dream a reality.
