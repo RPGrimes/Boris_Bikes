@@ -9,7 +9,7 @@ The task is to want build a program that will emulate all the docking stations, 
 
 To help structure your work, here are 22 challenges. They all build on one another. They require you to research things, to get stuck, and to find your own solutions. This is on purpose. A developer is a 'knowledge worker' - someone who will spend the majority of their time researching and learning how to solve problems. It'll suck for a bit, but with practice, you will get faster: and there's no better feeling than finding the answer to a problem that's been standing in your way for hours.
 
-### Challenges
+## Challenges
 #### Challenge 1 - Setting up a project
 **Learning Objectives covered**
 - Set up a simple project  :white_check_mark:
