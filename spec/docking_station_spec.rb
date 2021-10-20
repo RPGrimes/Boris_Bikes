@@ -1,16 +1,33 @@
-require "docking_station"
+require 'docking_station'
 
 describe DockingStation do
-  it 'release bike' do
-    docking_station = DockingStation.new
-    expect(docking_station).to respond_to(:release_bike)
-  end
   
-  it 'releases working bike' do
-    docking_station = DockingStation.new
-    bike = docking_station.release_bike
-    expect(bike).to respond_to(:working?)
-  end
-end
+  describe '#release_bike' do
+    it 'releases a bike' do
+      bike = Bike.new
+      subject.dock(bike)
+      expect(subject.release_bike).to eq bike
+    end
 
-#Up to end of challenge 10, end of day 19/10/2021
+    it 'raises an error when there are no bikes available' do
+      expect { subject.release_bike }.to raise_error 'No bikes available'
+    end
+  end
+
+  #it 'is bike working' do
+    #docking_station = DockingStation.new
+    #bike = docking_station.release_bike
+    #expect(bike).to respond_to(:working?)
+  #end
+
+  it 'docks something' do
+    bike = Bike.new
+    expect(subject.dock(bike)).to eq bike
+  end
+
+  it 'returns docked bikes' do
+    bike = Bike.new
+    subject.dock(bike)
+    expect(subject.bike).to eq bike
+  end
+end 
