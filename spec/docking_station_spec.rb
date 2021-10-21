@@ -14,11 +14,10 @@ describe DockingStation do
     end
   end
 
-  #it 'is bike working' do
-    #docking_station = DockingStation.new
-    #bike = docking_station.release_bike
-    #expect(bike).to respond_to(:working?)
-  #end
+  it 'is bike working' do
+    bike = Bike.new
+    expect(bike).to respond_to(:working?)
+  end
 
   it 'docks something' do
     bike = Bike.new
