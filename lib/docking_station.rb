@@ -15,7 +15,7 @@ class DockingStation
 
   def dock(bike)
     fail 'Docking capacity full' if full?
-    @bikes << bike
+    @bikes.push(bike)
   end
 
   private

@@ -19,6 +19,11 @@ describe DockingStation do
     expect(bike).to respond_to(:working?)
   end
 
+  #it 'report broken bike' do
+   # bike = Bike.new
+   # expect(subject.dock(bike)).to respond_to(:broken?)
+  #end
+
   it 'docks something' do
     bike = Bike.new
     expect(subject.dock(bike)).to eq [bike]
