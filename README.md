@@ -6,7 +6,7 @@ Day 1 partner --> [Courtney Stow](https://github.com/Court534) - Challenges 1 to
 
 Day 2 partner --> [Simon Jacobs](https://github.com/smoni19) - Challenges 7 to 12 completed. We picked up where Simon left off on Day 1, therefore we worked on his repository [which is here](https://github.com/smoni19/Boris_Bikes/commits/main) using the driver/navigator technique to push/pull commits as required. At the end of the day I updated my existing repository with the code we finished the day with.
 
-Day 3 partner --> [Monaliza Wohlers](https://github.com/monawoh) - Challenges 13 to 17 complete. We picked up where both Monaliza and I left off yesterday having completed Chapter 12. Therefore we worked on this repository using the driver/navigator technique to push/pull commits as required.
+Day 3 partner --> [Monaliza Wohlers](https://github.com/monawoh) - Challenges 13 to 17 complete. We picked up where both Monaliza and I left off yesterday having completed Chalenge 12. Therefore we worked on this repository using the driver/navigator technique to push/pull commits as required.
 
 ## About the task
 The task is to build a program that will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on).
