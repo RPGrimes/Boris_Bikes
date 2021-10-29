@@ -52,7 +52,7 @@ To help structure the work, we were given 22 challenges. They all built upon one
 
 #### Challenge 7 - Back to the feature
 **Learning Objectives covered**
-- Move between Feature and Unit Tests  :white_check_mark:
+- Move between Feature and Unit Tests :white_check_mark:
 
 #### Challenge 8 - Back to the unit
 **Learning Objectives covered**
@@ -97,32 +97,19 @@ To help structure the work, we were given 22 challenges. They all built upon one
 
 #### Challenge 14 - Using complex attribues
 **Learning Objectives covered**
-- Write a manual feature test for the above feature. Consider using `20.times { docking_station.dock Bike.new }` :white_check_mark:
-- Rename your attribute `@bike` to a name better reflecting that it will store more than one `Bike` instance. :white_check_mark:
-- Use rspec to identify areas of your code that need to be updated to use this new attribute name :white_check_mark:
-- Update your existing tests to recognise this new name for the attribute :white_check_mark:
-- Use an `initialize` function to set the initial value of this attribute to a simple collection object: an empty array :white_check_mark:
-- Update your `release_bike` and `dock` methods to work with this new array (i.e. make your tests pass) :white_check_mark:
-- Update your `release_bike` and `dock` guard conditions to account for the new capacity of 20 bikes :white_check_mark:
+- Wrap a collection in a class :white_check_mark:
+- Set an initial attribute value using initialize :white_check_mark:
 
 #### Challenge 15 - The single responsibility principle
 **Learning Objectives covered**
-- Define a `full?` predicate method that uses some of the dock code to return true or false depending on whether the station is full or not :white_check_mark:
-- Rewrite the guard condition of your `dock` method to incorporate your new `full?` method :white_check_mark:
-- Do the same for `release_bike`, using an `empty?` method :white_check_mark:
-- Use the `private` keyword to ensure these methods cannot be called from 'outside' instances of the `DockingStation` class :white_check_mark:
+- Use the Single Responsibility Principle :white_check_mark:
+- Refactor code for readability :white_check_mark:
 
 #### Challenge 16 - Removing magic numbers
 **Learning Objectives covered**
-- Define a constant, `DEFAULT_CAPACITY`, that stores the number `20`. Do this within the DockingStation class :white_check_mark:
-- Remove references to the magic number `20` in your implementation, using `DEFAULT_CAPACITY` instead :white_check_mark:
-- Refactor your tests to use this new constant instead of the magic number `20` :white_check_mark:
+- Use a constant :white_check_mark:
 
 #### Challenge 17 - Initialising defaults
 **Learning Objectives covered**
-- Write a feature test that allows a user to set a `@capacity` instance variable when `DockingStation.new` is called :white_check_mark:
-- Create Unit tests for this :white_check_mark:
-- Implement the functionality in your code :white_check_mark:
-- Write a feature test that ensures a default capacity of `20` is set when no parameters are passed to `DockingStation.new` :white_check_mark:
-- Create a unit test for this default capacity :white_check_mark:
-- Use a default argument value within the `initialize` method to make this test pass :white_check_mark:
+- Set an initial attribute value using initialize :white_check_mark:
+- Set a default initialisation value :white_check_mark:
